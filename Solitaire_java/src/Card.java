@@ -1,6 +1,4 @@
 
-
-
 public class Card {
 
 	public boolean red;
@@ -8,9 +6,8 @@ public class Card {
 	public int value;
 	public char color;
 		
-	public Card(boolean red, int value, char color) {
+	public Card(int value, char color) {
 		
-		this.red = red;
 		this.visible = false;
 		this.value = value;
 		this.color = color;
